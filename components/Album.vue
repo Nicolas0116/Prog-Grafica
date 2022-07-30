@@ -1,7 +1,7 @@
 <template>
   <div>
     <a-card v-for="album in listado" :key="album.id" :title="'Album N°'+album.id">
-      <a-card-grid :style="album.title"></a-card-grid>
+      <a-card-grid>{{album.title}}</a-card-grid>
       </a-card>
     </div>
 </template>

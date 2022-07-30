@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1> Pagina de usuarios</h1>
+        <h1> Pagina de todos</h1>
         <Todos />
     </div>    
 </template>
